@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #ff9ff3, #feca57, #ff6b6b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.stopwatch {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.stopwatch-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.display {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Texture Styles */
+.texture1 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.texture2 {
+    background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) 10px, rgba(0, 0, 0, 0.2) 10px, rgba(0, 0, 0, 0.2) 20px);
+}
+
+.texture3 {
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+}
+
+/* Button Styles */
+button#startBtn {
+    background: linear-gradient(120deg, #ff9ff3, #feca57, #ff6b6b);
+    color: #fff;
+}
+
+button#startBtn:hover {
+    background: linear-gradient(120deg, #ff6b6b, #feca57, #ff9ff3);
+}
+
+button#stopBtn {
+    background: linear-gradient(120deg, #feca57, #ff6b6b, #ff9ff3);
+    color: #fff;
+}
+
+button#stopBtn:hover {
+    background: linear-gradient(120deg, #ff9ff3, #ff6b6b, #feca57);
+}
+
+button#resetBtn {
+    background: linear-gradient(120deg, #ff6b6b, #feca57, #ff9ff3);
+    color: #fff;
+}
+
+button#resetBtn:hover {
+    background: linear-gradient(120deg, #ff9ff3, #feca57, #ff6b6b);
+}
